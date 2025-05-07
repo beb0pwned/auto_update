@@ -14,9 +14,9 @@ sudo apt update
 echo
 
 echo -e "\e[1;32mCleanup up... \e[0m"
-sudo apt clean
-sudo apt autoclean
-sudo apt autoremove
+sudo apt clean -y
+sudo apt autoclean -y
+sudo apt autoremove -y
 
 echo
 
